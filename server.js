@@ -62,7 +62,7 @@ app.post("/",function(req, res) {
 
 
 
-app.listen(3000, function() {
-    console.log("server is running on 3000");
+app.listen(process.env.PORT||5001, function() {
+    console.log("server is running on 5001");
 });
 
